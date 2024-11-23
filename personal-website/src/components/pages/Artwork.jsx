@@ -31,69 +31,88 @@ function Artwork() {
               <ul className='cards-item'>
                   <CardItem 
                   src={myArt1}
-                  label="Art"/>
+                  label="Art"
+                  caption="Golden Gate Bridge - Acrylic"/>
                   <CardItem 
                   src={myArt2}
-                  label="Art"/>
+                  label="Art"
+                  caption="Rainy Night - Acrylic"/>
                   <CardItem 
                   src={myArt3}
-                  label="Art"/>
+                  label="Art"
+                  caption="3 Boats - Acrylic"/>
                   <CardItem 
                   src={myArt4}
-                  label="Art"/>
+                  label="Art"
+                  caption="Bird Feeder - Acrylic"/>
               </ul>
               <ul className='cards-item'>
                   <CardItem 
                   src={myArt5}
-                  label="Art"/>
+                  label="Art"
+                  caption="Blurry - Procreate"/>
                   <CardItem 
                   src={myArt6}
-                  label="Art"/>
+                  label="Art"
+                  caption="Candle - Procreate"/>
                   <CardItem 
                   src={myArt7}
-                  label="Art"/>
+                  label="Art"
+                  caption="Castle Island - Acrylic"/>
                   <CardItem 
                   src={myArt8}
-                  label="Art"/>
+                  label="Art"
+                  caption="Elephant - Pencil"/>
               </ul>
               <ul className='cards-item'>
                   <CardItem 
                   src={myArt9}
-                  label="Art"/>
+                  label="Art"
+                  caption="Eyeball - Procreate"/>
                   <CardItem 
                   src={myArt10}
-                  label="Art"/>
+                  label="Art"
+                  caption="Hand - Charcoal"/>
                   <CardItem 
                   src={myArt11}
-                  label="Art"/>
+                  label="Art"
+                  caption="Humming Bird - Acrylic"/>
                   <CardItem 
                   src={myArt12}
-                  label="Art"/>
+                  label="Art"
+                  caption="Lake at Dusk - Acrylic"/>
               </ul>
               <ul className='cards-item'>
                   <CardItem 
                   src={myArt13}
-                  label="Art"/>
+                  label="Art"
+                  caption="Lighthouse - Acrylic"/>
                   <CardItem 
                   src={myArt14}
-                  label="Art"/>
+                  label="Art"
+                  caption="Mouth - Pencil"/>
                   <CardItem 
                   src={myArt15}
-                  label="Art"/>
+                  label="Art"
+                  caption="Man's Best Friend - Acrylic"/>
                   <CardItem 
                   src={myArt16}
-                  label="Art"/>
+                  label="Art"
+                  caption="Lips - Procreate"/>
               </ul>
               <ul className='cards-item'>
                   <CardItem 
                   src={myArt17}
-                  label="Art"/>
+                  label="Art"
+                  caption="Just a Nose - Procreate"/>
                   <CardItem 
                   src={myArt18}
-                  label="Art"/>
+                  label="Art"
+                  caption="Pappy's Bird - Acrylic"/>
                   <CardItem 
                   src={myArt19}
-                  label="Art"/>
+                  label="Art"
+                  caption="Mural - Acrylic"/>
               </ul>
           </div>
       </div>

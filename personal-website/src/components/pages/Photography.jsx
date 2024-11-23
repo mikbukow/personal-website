@@ -18,24 +18,30 @@ function Photography() {
               <ul className='cards-item'>
                   <CardItem 
                   src={myPhoto1}
-                  label="Photo"/>
+                  label="Photo"
+                  caption="Golden Gate Bridge"/>
                   <CardItem 
                   src={myPhoto2}
-                  label="Photo"/>
+                  label="Photo"
+                  caption="Golden Gate Bridge"/>
                   <CardItem 
                   src={myPhoto3}
-                  label="Photo"/>
+                  label="Photo"
+                  caption="Keely"/>
               </ul>
               <ul className='cards-item'>
                   <CardItem 
                   src={myPhoto4}
-                  label="Photo"/>
+                  label="Photo"
+                  caption="Keely"/>
                   <CardItem 
                   src={myPhoto5}
-                  label="Photo"/>
+                  label="Photo"
+                  caption="Keely"/>
                   <CardItem 
                   src={myPhoto6}
-                  label="Photo"/>
+                  label="Photo"
+                  caption="Mollie"/>
               </ul>
           </div>
       </div>
