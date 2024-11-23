@@ -1,7 +1,7 @@
 import React from 'react'
 import CardItem from '../CardItem'
 import '../../App.css'
-import './Artwork.css'
+import './Cards.css'
 import myArt1 from '../../images/art/gg-bridge.jpeg'
 import myArt2 from '../../images/art/rainy-night.jpeg'
 import myArt3 from '../../images/art/3boats.jpeg'
@@ -24,7 +24,7 @@ import myArt19 from '../../images/art/mural.jpeg'
 
 function Artwork() {
   return (
-    <div className='artwork-container'>
+    <div className='page-container'>
       <h1>Artwork</h1>
       <div className='cards-container'>
           <div className='cards-wrapper'>

@@ -1,4 +1,4 @@
-.artwork-container {
+.page-container {
     background: var(--color-bg);
     background-color: #73c7d9;
     color: #fff;
@@ -11,7 +11,7 @@
     
 }
 
-.artwork-container h1 {
+h1 {
     font-weight: lighter;
 }
 

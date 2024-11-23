@@ -1,5 +1,6 @@
 import React from 'react'
 import CardItem from '../CardItem'
+import './Cards.css'
 import '../../App.css'
 import myPhoto1 from '../../images/photography/gg-bridge1.jpeg'
 import myPhoto2 from '../../images/photography/gg-bridge2.jpeg'
@@ -10,7 +11,7 @@ import myPhoto6 from '../../images/photography/mollie.jpeg'
 
 function Photography() {
   return (
-    <div className='photography-container'>
+    <div className='page-container'>
       <h1>Photography</h1>
       <div className='cards-container'>
           <div className='cards-wrapper'>
