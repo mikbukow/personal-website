@@ -6,6 +6,8 @@ import Home from './components/pages/Home';
 import Portfolio from './components/pages/Portfolio';
 import AboutMe from './components/pages/AboutMe';
 import ContactMe from './components/pages/ContactMe';
+import Artwork from './components/pages/Artwork';
+import Photography from './components/pages/Photography';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path='/about-me' element={<AboutMe />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/contact-me' element={<ContactMe />} />
+        <Route path='/portfolio/artwork' element={<Artwork />} />
+        <Route path='/portfolio/photography' element={<Photography />} />
       </Routes>
     </Router>
   );

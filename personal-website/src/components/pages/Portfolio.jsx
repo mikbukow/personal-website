@@ -11,17 +11,17 @@ export default function Portfolio() {
       <h3>Check out what I've been working on</h3>
       <div className='portfolio-btns'>
         <div className='portfolio-btn'>
-          <Button className='btns' buttonSize={'btn--large'} path='/artwork'> 
+          <Button className='btns' buttonSize={'btn--large'} path='/portfolio/artwork'> 
             Artwork
           </Button>
         </div>
         <div className='portfolio-btn'>
-          <Button className='btns' buttonSize={'btn--large'} path='/projects'> 
+          <Button className='btns' buttonSize={'btn--large'} path='/portfolio/projects'> 
             Projects 
           </Button>
         </div>
         <div className='portfolio-btn'>
-          <Button className='btns' buttonSize={'btn--large'} path='/photography'> 
+          <Button className='btns' buttonSize={'btn--large'} path='/portfolio/photography'> 
             Photography 
           </Button>
         </div>
