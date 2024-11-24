@@ -39,6 +39,18 @@ img {
     display: flex;
 }
 
+.about-me-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
 @media screen and (max-width: 960px) {
     img {
         display: none;
