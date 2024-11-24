@@ -1,5 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
+import { Link } from 'react-router-dom';
+import Pdf from '../../documents/Mikaela_Bukow_Resume.pdf';
 import myPicture from '../../images/linkedin-photo.jpeg';
 
 function AboutMe() {
@@ -17,6 +19,20 @@ function AboutMe() {
             I’ve also recently picked up wheel pottery and am self teaching myself animation. 
             I’m passionate about creating things, whether it be automated solutions, artwork or some new ceramic mugs! 
           </p>
+          <div className='about-me-links'>
+            <Link className='social-icons-links linkedin' 
+              to='https://linkedin.com/in/mikaela-b-41844b125' target='_blank' aria-label='LinkedIn'>
+              <i className='fab fa-linkedin fa-3x'></i>
+            </Link>
+            <Link className='social-icons-links github' 
+              to='https://github.com/mikbukow' target='_blank' aria-label='Github'>
+              <i className='fab fa-github fa-3x'></i>
+            </Link>
+            <Link className='social-icons-links resume' 
+              to={Pdf} target='_blank' aria-label='resume'>
+                <i className='fa-solid fa-file fa-3x'></i>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
