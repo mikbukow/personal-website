@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Typewriter } from 'react-simple-typewriter';
 import './HeroSection.css'
 import '../App.css'
 import {Button} from './Button';
-import AboutMe from './pages/AboutMe';
 
-
-export default function HeroSection() {
+function HeroSection() {
     return (
       <div className='hero'>
           <div className='hero-container'>
@@ -25,3 +23,5 @@ export default function HeroSection() {
       </div>
     )
   }
+
+export default HeroSection

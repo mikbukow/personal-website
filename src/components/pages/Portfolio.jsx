@@ -3,8 +3,7 @@ import '../../App.css'
 import './Portfolio.css'
 import {Button} from '../Button'
 
-
-export default function Portfolio() {
+function Portfolio() {
   return (
     <div class='portfolio-container'>
       <h1>Portfolio</h1>
@@ -29,3 +28,5 @@ export default function Portfolio() {
     </div>
   )
 }
+
+export default Portfolio
